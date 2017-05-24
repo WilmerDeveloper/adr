@@ -8,32 +8,290 @@ and open the template in the editor.
     Author     : wilmer.mogollon
 */
 
-.section-home{
-   max-width: 1024px;
-    padding: 15px 16px 30px;
+/*unidades de medidas representadas en em*/
+
+h1{font-size:1.5em; margin:0em;}
+h2{font-size:1.1429em; margin:0em;}
+h3{font-size:1em; margin:0em;}
+p{font-size:0.9286; margin:0em;}
+
+.row [class*="col-"]:empty,
+.pane:empty,
+.EmptyZone {
+  display: none !important;
+  height: 0;
+  line-height: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 0;
+}
+
+
+.H1Serv{
+    text-align:center;
+    margin-top: 0em !important;
+    margin-bottom: 0em !important;
+    color:green;
+}
+
+.H2Serv
+{
+    padding:0.7143em;
+    color:#FFF;
+}
+
+.H2NotHist
+{
+    padding:0.7143em;
+    color: #585857;
+    font-family: sans-serif;
+}
+
+.NotHistDate{
+    padding:0.7143em;
+    color:#3d3d3c;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.NotHistBody{
+    padding:0.7143em;
+    color: #585857;
+    font-family: sans-serif;
+}
+.H1Media{
+    color:#000; /*Se recomienda un color de fuente mas oscuro en este caso se utiliza un negro para cumplir con los estandares de contraste*/
+    display: inline;
+    margin: 1.85em 0 0 0.64em;
+
+}
+
+.H1News{
+    padding:0.7143em;
+    color:#fff;
+    background:#5DB179;
+    text-align:center;
+}
+
+.media-col-main-link{
+    display:inline;	
+}
+
+
+#header-top{
+    width: 73.14em;
+    margin: 0 auto;
+}
+
+#slider-section{
+    width: 73.14em;
     margin: 0 auto; 
 }
+
+
+
+#footer{
+    width: 73.14em;
+    margin: 0 auto; 
+}
+
+
+#content-section{
+    width: 75.16em;
+    margin: 0 auto;
+    background: #f8f8f7;
+}
+
+#green-section{
+    width: 73.14em;
+    margin: 0 auto;
+    padding: 0em 0em 0em 1em;
+
+}
+
+#info-section{
+    width: 75.16em;
+    margin: 0 auto;
+    background: #f6f6f6;
+}
+
+#external-links-section{
+    width: 73.14em;
+    margin: 0 auto;
+    background: #f6f6f6;
+}
+
+#highlighted-elements-section{
+    width: 73.14em;
+    margin: 0 auto;
+}
+
+/*para los iconos superiores de redes sociales*/
 #div_der{
-    width:350px; 
     float:right; 
     text-align:right;
+}
+
+#div-element{
+    float:left; 
+}
+
+#div-news{
+    width: 22.5em;
+    padding:1.4289em;
+}
+
+#div-services-met{
+    width: 22.85em;
+    float:left; 
+    text-align:left;
+    background: #03a8bf;
+    margin: 0.57em 0em;
+    border-radius: 0.57em 0.57em 0.57em 0.57em; 
+    -moz-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    -webkit-border-radius:0.57em 0.57em 0.57em 0.57em;
+    behavior:url(border-radius.htc);
+}
+
+
+#div-services-aso{
+    width: 22.85em;
+    float:left; 
+    text-align:left;
+    background: #5eb17a;
+    margin: 0.57em 0em;
+    border-radius: 0.57em 0.57em 0.57em 0.57em; 
+    -moz-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    -webkit-border-radius:0.57em 0.57em 0.57em 0.57em;
+    behavior:url(border-radius.htc);
+}
+
+#div-services-asis{
+    width: 22.85em;
+    float:left; 
+    text-align:left;
+    background: #03a8bf;
+    margin: 0.57em 0em;
+    border-radius: 0.57em 0.57em 0.57em 0.57em; 
+    -moz-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    -webkit-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    behavior:url(border-radius.htc);
+}
+
+#div-services-adec{
+    width: 22.85em;
+    float:left; 
+    text-align:left;
+    background: #02ab8c;
+    margin: 0.57em 0em;
+    border-radius: 0.57em 0.57em 0.57em 0.57em; 
+    -moz-border-radius:0.57em 0.57em 0.57em 0.57em;
+    -webkit-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    behavior:url(border-radius.htc);
+}
+
+#div-services-com{
+    width: 22.85em;
+    float:left; 
+    text-align:left;
+    background: #187dc2;
+    margin: 0.57em 0em;
+    border-radius: 0.57em 0.57em 0.57em 0.57em; 
+    -moz-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    -webkit-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    behavior:url(border-radius.htc);
+}
+
+#news-section{
+    width: 29.64em;
+    float:left; 
+    text-align:left;
+}
+
+#news-section2{
+    width: 72.64em;
+    float:left; 
+    text-align:left;
+}
+
+
+#media-section{
+    width: 16.07em;
+    float:left; 
+    text-align:left;
+    background: #bddbb3;
+    border-radius: 0.57em 0.57em 0.57em 0.57em; 
+    -moz-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    -webkit-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    behavior:url(border-radius.htc);
+}
+
+#services-section{
+    width: 23.21em;
+    float:left; 
+    text-align:left;
+}
+#content-facebook-section{
+    width: 18.28em;
+    background-image: url(../images/bkgborder.png);
+    background-repeat: no-repeat;
+    padding: 4.28em 1.07em 1.42em 1.07em;
+    align-content: center;
+}
+
+#content-twitter-section{
+    width: 18.28em;
+    background-image: url(../images/bkgbordertwitter.png);
+    background-repeat: no-repeat;
+    padding: 4.28em 1.07em 1.42em 1.07em;
+    align-content: center;
+}
+
+#facebook-section{
+    width: 17.57em;
+    align-content: center;
+    border-radius: 0.57em 0.57em 0.57em 0.57em; 
+    -moz-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    -webkit-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    behavior:url(border-radius.htc);
+
+}
+
+#twitter-section{
+    width: 17.57em;
+    align-content: center;
+    border-radius: 0.57em 0.57em 0.57em 0.57em; 
+    -moz-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    -webkit-border-radius: 0.57em 0.57em 0.57em 0.57em;
+    behavior:url(border-radius.htc);
+}
+
+#projects-section{
+    width: 36.57em;
+    float:left; 
+    text-align:left;
+}
+
+#div-txt{
+    width: 73.14em; 
+    background: #dadada;
+
 }
 
 .top_menu ul
 {
     list-style:none;
     float:left;
-    border: 1px dashed;
+    border: 0.071em dashed;
     padding: 2%;
     width:95%;
 }
 .top_menu ul li
 {
     float:left;
-    margin-right:20px;
-    margin-bottom:10px;
+    margin-right:1.42em;
+    margin-bottom:0.71em;
     background: #ff812d;
-    padding:5px;
+    padding:0.357em;
 }
 .top_menu ul li a
 {
@@ -45,11 +303,73 @@ and open the template in the editor.
     color: blue;
 }
 
+.media-col-item{    
+    padding: 2.85em;
+    font-size: 1.2em;
+    background-color: #bddbb3; 
+    opacity: 0.5;
+}
+
+.service-col-item{padding: 1.42em;}
+
+.green-div-primary{
+    border-bottom:1.42em solid #5eb17a;
+    margin: 1.071em 0em; 
+    width: 73.14em; 
+    align-content: center;
+    padding: 0em 2em 0em 2em;
+}
+.green-div{
+    border-bottom:0.0714em solid #1f6541;
+    margin: 1.071em 0em; 
+    width: 73.14em; 
+    padding: 0em 2em 0em 2em;
+}
+
+.footer-cont{
+    padding: 2.5em 0em 1.42em 0em;
+}
 
 
-/*.form-loging {
-  max-width: 420px;
-    padding: 15px 16px 30px;
-    margin: 0 auto;  
+footer{color: #000; /*Se recomienda un color de fuente mas oscuro en este caso se utiliza un negro para cumplir con los estandares de contraste*/
+       background-color: #dadada; 
+       padding:2.14em 0em;
+}
 
-}*/
+.cbs-Item_Serv
+{
+    width:100% !important;
+}
+
+.cbs-Item_Cont_Serv{
+    border-radius: 1.071em;
+    padding:0.142em;
+    margin-top: 0em !important;
+    margin-bottom: 0em !important;
+}
+.cbs-List
+{
+    width:100%;
+    padding: 0em !important;
+}
+.cbs-List-Serv-li
+{
+    padding:0 0.142em 0 0;
+    margin: 1.071em 0em;
+    text-align: center;
+    color:#fff !important;
+}
+
+
+#cajon1{
+float:left;
+}
+#cajon2{
+float:left;
+}
+
+#cajon3{
+clear:both;
+}
+
+
