@@ -120,16 +120,41 @@ a:focus{
     width: 20%;
     margin: 0 auto 0em auto;
     background: #579590;
-    right: 150px;
+    right: -80px;
     
 }
-
-.juridica > li > a{
-    width: 20%;
+.com{
+    width: 80%;
     margin: 0 auto 0em auto;
     background: #6cb43e;
-    left: 350px;
-    
+    position: relative;
+    top:-97px;
+    right:80px
+}
+.cont{
+    width: 80%;
+    margin: 0 auto 0em auto;
+    background: #6cb43e;
+    position: relative;
+    top:-60px;
+    right:250px
+}
+
+.jur{
+    width: 80%;
+    margin: 0 auto 0em auto;
+    background: #6cb43e;
+    position: relative;
+    top:-135px;
+    right:-250px
+}
+.plan{
+    width: 80%;
+    margin: 0 auto 0em auto;
+    background: #6cb43e;
+    position: relative;
+    top:-172px;
+    right:-400px
 }
 
 
